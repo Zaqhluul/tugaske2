@@ -1,0 +1,119 @@
+/* RESET DASAR */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header#main-header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 15px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.foto-profil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.header-text h1 {
+    font-size: 1.8rem;
+}
+
+.header-text p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+/* KONTEN UTAMA */
+main.konten {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* NAVIGASI ARTIKEL */
+.navigasi-artikel {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.navigasi-artikel a {
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.navigasi-artikel a:hover,
+.navigasi-artikel a:focus {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+/* ARTIKEL */
+.proyek {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.proyek:hover {
+    transform: translateY(-3px);
+}
+
+/* GALERI GAMBAR */
+.galeri-gambar {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gambar-artikel {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.gambar-artikel:hover {
+    transform: scale(1.05);
+}
+
+/* FOOTER */
+.site-footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 40px;
+}
